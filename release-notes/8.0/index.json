@@ -1,0 +1,231 @@
+{
+  "kind": "index",
+  "_links": {
+    "self": {
+      "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/8.0/index.json",
+      "relative": "8.0/index.json",
+      "title": "8.0 Index",
+      "type": "application/json"
+    },
+    "releases": {
+      "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/8.0/releases.json",
+      "relative": "8.0/releases.json",
+      "title": "8.0 Releases",
+      "type": "application/json"
+    },
+    "manifest": {
+      "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/8.0/manifest.json",
+      "relative": "8.0/manifest.json",
+      "title": "8.0 Manifest",
+      "type": "application/json"
+    }
+  },
+  "_embedded": {
+    "releases": [
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      }
+    ]
+  }
+}

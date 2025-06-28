@@ -1,0 +1,105 @@
+{
+  "kind": "index",
+  "_links": {
+    "self": {
+      "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/9.0/index.json",
+      "relative": "9.0/index.json",
+      "title": "9.0 Index",
+      "type": "application/json"
+    },
+    "releases": {
+      "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/9.0/releases.json",
+      "relative": "9.0/releases.json",
+      "title": "9.0 Releases",
+      "type": "application/json"
+    }
+  },
+  "_embedded": {
+    "releases": [
+      {
+        "version": "9.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "9.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "9.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "9.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "9.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "9.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "9.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/release.json",
+            "relative": "release.json",
+            "title": "index.json Release",
+            "type": "application/json"
+          }
+        }
+      }
+    ]
+  }
+}
