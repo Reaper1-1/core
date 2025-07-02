@@ -4,7 +4,7 @@ This document describes how to consume the .NET release metadata system, which f
 
 ## Entry Point
 
-The root document is located at: <https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json>.
+The root document is located at: <https://raw.githubusercontent.com/dotnet/core/refs/heads/hal-index/release-notes/index.json>.
 
 This file has `kind: index` and contains an `_embedded.releases` array with metadata and links to individual version indices.
 
