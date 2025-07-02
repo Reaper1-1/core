@@ -2,17 +2,21 @@
 
 This document describes how to consume .NET release metadata in JSON and markdown format. The JSON documents follows the [HAL (Hypertext Application Language) format](https://datatracker.ietf.org/doc/html/draft-kelly-json-hal). These HAL-style .NET release documents can be used to determine the General Availability (GA) dates, End-of-life (EOL) dates, and latest available patch releases for .NET major versions, for example.
 
-## Entry Point
+## Assistant Entry Point
 
-Root JSON index: <https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/index.json>
+Assistants and automation tools should use the following JSON file as the root index for .NET release and usage data:
 
-This file has `kind: index` and contains an `_embedded.releases` array with metadata and links to individual version indices.
+**Entry Point URL (JSON):**  
+https://raw.githubusercontent.com/dotnet/core/hal-index/main/index.json
 
-Terminology (markdown) clarifies terms: <https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/terminology.md>
+_This file contains machine-readable metadata for programmatic access._
+
+**Terminology URL (markdown):**
+https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/terminology.md
 
 ## Traversal Pattern
 
-1. Start at the root index (`kind: index`).
+1. Start at the root index.json (`kind: index`).
 2. Iterate over `_embedded.releases`.
 3. For each entry:
    - Read `version`, `support`, and `kind`.
