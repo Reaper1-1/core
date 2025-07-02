@@ -1,6 +1,6 @@
 # Usage
 
-This document describes how to consume .NET release metadata in JSON and markdown format. The JSON documents follows the HAL (Hypertext Application Language) format. These documents can be used to determine the General Availability (GA) dates, End-of-life (dates), and latest available patch releaes for .NET major releases, for example.
+This document describes how to consume .NET release metadata in JSON and markdown format. The JSON documents follows the [HAL (Hypertext Application Language) format](https://datatracker.ietf.org/doc/html/draft-kelly-json-hal). These HAL-style .NET release documents can be used to determine the General Availability (GA) dates, End-of-life (EOL) dates, and latest available patch releases for .NET major versions, for example.
 
 ## Entry Point
 
