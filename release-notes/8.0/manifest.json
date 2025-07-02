@@ -64,5 +64,13 @@
   "ga-date": "2023-11-14",
   "eol-date": "2026-11-10",
   "release-type": "LTS",
-  "support-phase": "active"
+  "support-phase": "active",
+  "rating": "4.5",
+  "most-valuable-features": [
+    "Performance improvements",
+    "Native AOT support",
+    "Enhanced cloud diagnostics",
+    "Improved MAUI capabilities",
+    "Memorable ship party"
+  ]
 }
