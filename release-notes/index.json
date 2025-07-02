@@ -1,10 +1,11 @@
 {
   "kind": "index",
+  "description": "Index of .NET major versions",
   "_links": {
     "self": {
-      "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json",
+      "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/index.json",
       "relative": "index.json",
-      "title": ".NET Releases Index",
+      "title": "Index of .NET major versions",
       "type": "application/json"
     }
   },
@@ -15,215 +16,238 @@
         "kind": "index",
         "_links": {
           "self": {
-            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json",
-            "relative": "index.json",
-            "title": ".NET 10.0 Index",
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
+            "relative": "releases.json",
+            "title": ".NET 10.0 Releases",
             "type": "application/json"
           }
+        },
+        "support": {
+          "release-type": "lts",
+          "phase": "preview",
+          "eol-date": "0001-01-01T00:00:00+00:00"
         }
       },
       {
         "version": "9.0",
         "kind": "index",
-        "support": {
-          "release-type": "sts",
-          "phase": "active",
-          "eol-date": "2026-05-12"
-        },
         "_links": {
           "self": {
-            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json",
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/index.json",
             "relative": "index.json",
             "title": ".NET 9.0 Index",
             "type": "application/json"
+          },
+          "releases": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
+            "relative": "releases.json",
+            "title": ".NET 9.0 Releases",
+            "type": "application/json"
           }
+        },
+        "support": {
+          "release-type": "sts",
+          "phase": "active",
+          "eol-date": "2026-05-12T00:00:00+00:00"
         }
       },
       {
         "version": "8.0",
         "kind": "index",
-        "support": {
-          "release-type": "lts",
-          "phase": "active",
-          "eol-date": "2026-11-10"
-        },
         "_links": {
           "self": {
-            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json",
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/index.json",
             "relative": "index.json",
             "title": ".NET 8.0 Index",
             "type": "application/json"
+          },
+          "releases": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
+            "relative": "releases.json",
+            "title": ".NET 8.0 Releases",
+            "type": "application/json"
+          },
+          "manifest": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/manifest.json",
+            "relative": "manifest.json",
+            "title": ".NET 8.0 Manifest",
+            "type": "application/json"
           }
+        },
+        "support": {
+          "release-type": "lts",
+          "phase": "active",
+          "eol-date": "2026-11-10T00:00:00+00:00"
         }
       },
       {
         "version": "7.0",
         "kind": "index",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
+            "relative": "releases.json",
+            "title": ".NET 7.0 Releases",
+            "type": "application/json"
+          }
+        },
         "support": {
           "release-type": "sts",
           "phase": "eol",
-          "eol-date": "2024-05-14"
-        },
-        "_links": {
-          "self": {
-            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json",
-            "relative": "index.json",
-            "title": ".NET 7.0 Index",
-            "type": "application/json"
-          }
+          "eol-date": "2024-05-14T00:00:00+00:00"
         }
       },
       {
         "version": "6.0",
         "kind": "index",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
+            "relative": "releases.json",
+            "title": ".NET 6.0 Releases",
+            "type": "application/json"
+          }
+        },
         "support": {
           "release-type": "lts",
           "phase": "eol",
-          "eol-date": "2024-11-12"
-        },
-        "_links": {
-          "self": {
-            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json",
-            "relative": "index.json",
-            "title": ".NET 6.0 Index",
-            "type": "application/json"
-          }
+          "eol-date": "2024-11-12T00:00:00+00:00"
         }
       },
       {
         "version": "5.0",
         "kind": "index",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
+            "relative": "releases.json",
+            "title": ".NET 5.0 Releases",
+            "type": "application/json"
+          }
+        },
         "support": {
           "release-type": "sts",
           "phase": "eol",
-          "eol-date": "2022-05-10"
-        },
-        "_links": {
-          "self": {
-            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json",
-            "relative": "index.json",
-            "title": ".NET 5.0 Index",
-            "type": "application/json"
-          }
+          "eol-date": "2022-05-10T00:00:00+00:00"
         }
       },
       {
         "version": "3.1",
         "kind": "index",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
+            "relative": "releases.json",
+            "title": ".NET 3.1 Releases",
+            "type": "application/json"
+          }
+        },
         "support": {
           "release-type": "lts",
           "phase": "eol",
-          "eol-date": "2022-12-13"
-        },
-        "_links": {
-          "self": {
-            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json",
-            "relative": "index.json",
-            "title": ".NET 3.1 Index",
-            "type": "application/json"
-          }
+          "eol-date": "2022-12-13T00:00:00+00:00"
         }
       },
       {
         "version": "3.0",
         "kind": "index",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
+            "relative": "releases.json",
+            "title": ".NET 3.0 Releases",
+            "type": "application/json"
+          }
+        },
         "support": {
           "release-type": "sts",
           "phase": "eol",
-          "eol-date": "2020-03-03"
-        },
-        "_links": {
-          "self": {
-            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json",
-            "relative": "index.json",
-            "title": ".NET 3.0 Index",
-            "type": "application/json"
-          }
+          "eol-date": "2020-03-03T00:00:00+00:00"
         }
       },
       {
         "version": "2.2",
         "kind": "index",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
+            "relative": "releases.json",
+            "title": ".NET 2.2 Releases",
+            "type": "application/json"
+          }
+        },
         "support": {
           "release-type": "sts",
           "phase": "eol",
-          "eol-date": "2019-12-23"
-        },
-        "_links": {
-          "self": {
-            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json",
-            "relative": "index.json",
-            "title": ".NET 2.2 Index",
-            "type": "application/json"
-          }
+          "eol-date": "2019-12-23T00:00:00+00:00"
         }
       },
       {
         "version": "2.1",
         "kind": "index",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
+            "relative": "releases.json",
+            "title": ".NET 2.1 Releases",
+            "type": "application/json"
+          }
+        },
         "support": {
           "release-type": "lts",
           "phase": "eol",
-          "eol-date": "2021-08-21"
-        },
-        "_links": {
-          "self": {
-            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json",
-            "relative": "index.json",
-            "title": ".NET 2.1 Index",
-            "type": "application/json"
-          }
+          "eol-date": "2021-08-21T00:00:00+00:00"
         }
       },
       {
         "version": "2.0",
         "kind": "index",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
+            "relative": "releases.json",
+            "title": ".NET 2.0 Releases",
+            "type": "application/json"
+          }
+        },
         "support": {
           "release-type": "sts",
           "phase": "eol",
-          "eol-date": "2018-10-01"
-        },
-        "_links": {
-          "self": {
-            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json",
-            "relative": "index.json",
-            "title": ".NET 2.0 Index",
-            "type": "application/json"
-          }
+          "eol-date": "2018-10-01T00:00:00+00:00"
         }
       },
       {
         "version": "1.1",
         "kind": "index",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
+            "relative": "releases.json",
+            "title": ".NET 1.1 Releases",
+            "type": "application/json"
+          }
+        },
         "support": {
           "release-type": "lts",
           "phase": "eol",
-          "eol-date": "2019-06-27"
-        },
-        "_links": {
-          "self": {
-            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json",
-            "relative": "index.json",
-            "title": ".NET 1.1 Index",
-            "type": "application/json"
-          }
+          "eol-date": "2019-06-27T00:00:00+00:00"
         }
       },
       {
         "version": "1.0",
         "kind": "index",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
+            "relative": "releases.json",
+            "title": ".NET 1.0 Releases",
+            "type": "application/json"
+          }
+        },
         "support": {
           "release-type": "lts",
           "phase": "eol",
-          "eol-date": "2019-06-27"
-        },
-        "_links": {
-          "self": {
-            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json",
-            "relative": "index.json",
-            "title": ".NET 1.0 Index",
-            "type": "application/json"
-          }
+          "eol-date": "2019-06-27T00:00:00+00:00"
         }
       }
     ]

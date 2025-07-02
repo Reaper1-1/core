@@ -25,16 +25,22 @@
       "title": "Supported Operating Systems",
       "type": "application/json"
     },
+    "supported-os-raw-markdown": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/8.0/supported-os.md",
+      "relative": "supported-os.md",
+      "title": "Supported Operating Systems (raw markdown)",
+      "type": "text/markdown"
+    },    
     "supported-os-markdown": {
       "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/supported-os.md",
       "relative": "supported-os.md",
-      "title": "Supported Operating Systems (Markdown)",
+      "title": "Supported Operating Systems (markdown)",
       "type": "text/markdown"
     },
     "linux-packages-markdown": {
       "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/linux-packages.md",
       "relative": "linux-packages.md",
-      "title": "Linux Packages (Markdown)",
+      "title": "Linux Packages (markdown)",
       "type": "text/markdown"
     },
     "downloads": {
@@ -47,7 +53,7 @@
       "title": "What's new in .NET 8",
       "type": "text/html"
     },
-    "blog": {
+    "announcement-blog": {
       "href": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/",
       "title": "Announcing .NET 8",
       "type": "text/html"

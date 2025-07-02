@@ -1,5 +1,4 @@
 {
-    "kind": "index",
     "component": "sdk",
     "version": "8.0",
     "label": ".NET SDK 8.0",
