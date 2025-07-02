@@ -4,11 +4,11 @@ This document describes how to consume the .NET release metadata system, which f
 
 ## Entry Point
 
-Root JSON index: <https://raw.githubusercontent.com/dotnet/core/refs/heads/hal-index/release-notes/index.json>
+Root JSON index: <https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/index.json>
 
 This file has `kind: index` and contains an `_embedded.releases` array with metadata and links to individual version indices.
 
-Terminology (markdown) clarifies terms: <https://raw.githubusercontent.com/dotnet/core/refs/heads/hal-index/release-notes/terminology.md>
+Terminology (markdown) clarifies terms: <https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/terminology.md>
 
 ## Traversal Pattern
 
