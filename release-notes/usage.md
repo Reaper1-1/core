@@ -1,0 +1,40 @@
+# Usage
+
+This document describes how to consume the .NET release metadata system, which follows the HAL (Hypertext Application Language) format.
+
+## Entry Point
+
+The root document is located at: <https://builds.dotnet.microsoft.com/dotnet/release-metadata/index.json>.
+
+This file has `kind: index` and contains an `_embedded.releases` array with metadata and links to individual version indices.
+
+## Traversal Pattern
+
+1. Start at the root index (`kind: index`).
+2. Iterate over `_embedded.releases`.
+3. For each entry:
+   - Read `version`, `support`, and `kind`.
+   - Follow `_links.self` to get the index or release list for that version.
+4. Continue traversal using `_links` to discover related documents (`releases.json`, `manifest.json`, etc).
+
+## HAL Interpretation Notes
+
+- All links are explicit in `_links`. Do not infer paths.
+- If a field is not found, check the linked document.
+
+While the HAL specification treats _embedded as an optional optimization (embedding linked resources to avoid additional requests), this system uses _embedded to expose critical structured data—such as versioned indexes or manifests—that may not be linked elsewhere.
+
+In this context, _embedded is not merely an optimization; it is the primary discovery mechanism for structured children. Each embedded entry must include a corresponding `_links.self` reference to enable reliable traversal and efficient caching.
+
+## Tooling Compatibility
+
+- HAL-aware clients can use `_links` to traverse.
+- Chat assistants should prefer `text/markdown` links where applicable.
+- Files are structured such that the most critical data is immutable or very slow to change.
+- As a result, it is safe to cache CDN-served files.
+
+## Recommended Practices
+
+- Follow `self` links to ensure stability.
+- Rely on metadata within index documents—such as `version`, `kind`, and `support`. These fields are stable and can be relied on for fast scanning without dereferencing links.
+- Refer to `terminology.md` for definitions and structural conventions.

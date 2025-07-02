@@ -5,15 +5,27 @@
     "self": {
       "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/index.json",
       "relative": "index.json",
-      "title": "Index of .NET major versions",
+      "title": " Index",
       "type": "application/json"
+    },
+    "usage": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/usage.md",
+      "relative": "usage.md",
+      "title": " Content",
+      "type": "application/markdown"
+    },
+    "terminology": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/terminology.md",
+      "relative": "terminology.md",
+      "title": " Content",
+      "type": "application/markdown"
     }
   },
   "_embedded": {
     "releases": [
       {
         "version": "10.0",
-        "kind": "index",
+        "kind": "releases",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
@@ -82,7 +94,7 @@
       },
       {
         "version": "7.0",
-        "kind": "index",
+        "kind": "releases",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
@@ -99,7 +111,7 @@
       },
       {
         "version": "6.0",
-        "kind": "index",
+        "kind": "releases",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
@@ -116,7 +128,7 @@
       },
       {
         "version": "5.0",
-        "kind": "index",
+        "kind": "releases",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
@@ -133,7 +145,7 @@
       },
       {
         "version": "3.1",
-        "kind": "index",
+        "kind": "releases",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
@@ -150,7 +162,7 @@
       },
       {
         "version": "3.0",
-        "kind": "index",
+        "kind": "releases",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
@@ -167,7 +179,7 @@
       },
       {
         "version": "2.2",
-        "kind": "index",
+        "kind": "releases",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
@@ -184,7 +196,7 @@
       },
       {
         "version": "2.1",
-        "kind": "index",
+        "kind": "releases",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
@@ -201,7 +213,7 @@
       },
       {
         "version": "2.0",
-        "kind": "index",
+        "kind": "releases",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
@@ -218,7 +230,7 @@
       },
       {
         "version": "1.1",
-        "kind": "index",
+        "kind": "releases",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
@@ -235,7 +247,7 @@
       },
       {
         "version": "1.0",
-        "kind": "index",
+        "kind": "releases",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/releases.json",
