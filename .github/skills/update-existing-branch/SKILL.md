@@ -146,5 +146,11 @@ For an existing release-notes branch set, the normal loop is:
 3. update the existing markdown in place
 4. respond to comments and questions
 
+Before finalizing the refreshed draft, run
+[`review-release-notes`](../review-release-notes/SKILL.md) against the merged
+`features.json`, `changes.json`, and component files on their own branches
+until merged. Resolve noteworthy omissions or record the editorial reason in
+the corresponding `features.json` entry's `score_reason` on the base branch.
+
 This keeps the branch set stable for reviewers and avoids throwing away already
 curated editorial work.
